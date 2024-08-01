@@ -1,6 +1,6 @@
-# Minecraft Structure Block Size Limit Bypass
+# Minecraft Structure Block Size Limit Workaround
 
-This Python script bypasses the 32x32x32 block size limit of Minecraft structure blocks by automatically generating multiple structure files and corresponding functions. It allows users to create larger structures by specifying the desired dimensions, name, namespace, and directories through a user-friendly GUI.
+This Python script is a workaround for the 32x32x32 block size limit of Minecraft structure blocks by automatically generating multiple structure files and corresponding functions. It allows users to create larger structures by specifying the desired dimensions, name, namespace, and directories through a user-friendly GUI.
 
 ## Features
 
@@ -48,7 +48,7 @@ python main.py
 
 ## Limitations
 
-- The script generates structure files containing only structure_void blocks. You need to manually add your desired blocks and entities to the generated structures using a structure block editor or NBT editor.
+- The script generates structure files containing only structure_void blocks for copying larger areas than structure block allow. It doesn't copy entities by default.
 - The generated functions assume a specific relative position for placing the structures. You may need to adjust the coordinates in the functions based on your desired placement location.
 
 ## License
