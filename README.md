@@ -43,8 +43,8 @@ python main.py
 
 - Structure Files: The script generates multiple NBT files containing structure_void blocks based on the specified dimensions. The files are saved in the selected structure directory.
 - Function Files:
-  - `place_structures.mcfunction`: This function file contains commands to place and configure the structure blocks in the Minecraft world.
-  - `place-<structure_name>.mcfunction`: This function file contains commands to place the structures using the `/place` command.
+  - `place_structures.mcfunction`: This function file contains commands to place and configure the structure blocks in the Minecraft world. This automatically turns the structure blocks to save mode, creates the areas they need to save, and names them. all you need to do it hit save and break the block.
+  - `place-<structure_name>.mcfunction`: This function file contains commands to place the structures using the `/place` command. It places the structures that are created with the first mcfunction.
 
 ## Limitations
 
