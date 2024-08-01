@@ -11,7 +11,7 @@ This Python script bypasses the 32x32x32 block size limit of Minecraft structure
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10 (only one I've tested in)
 - `nbtlib` library
 - `tkinter` library
 
