@@ -1,3 +1,4 @@
+[![Downloads](https://img.shields.io/github/downloads/ImPot8o/structure-block-generator/total.svg)](https://github.com/ImPot8o/structure-block-generator/releases)
 # Minecraft Structure Block Size Limit Workaround
 
 This Python script is a workaround for the 32x32x32 block size limit of Minecraft structure blocks by automatically generating multiple structure files and corresponding functions. It allows users to create larger structures by specifying the desired dimensions, name, namespace, and directories through a user-friendly GUI.
