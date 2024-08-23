@@ -70,4 +70,4 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 Feel free to contribute, report issues, or suggest improvements!
 
-Support me https://ko-fi.com/notfamous
+Support me or see my other projects: https://ko-fi.com/notfamous
