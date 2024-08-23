@@ -77,7 +77,9 @@ data modify block ~{x * 32} ~{y * 32} ~{z * 32} Position set value [{x * 32}, {y
 """
 
     # Save the function content to a file
-    function_file = os.path.join(function_dir, "place_structures.mcfunction")
+    structure_name = f"{name}{suffix}"
+    create_function_name = f"create-{structure_name}"
+    function_file = os.path.join(function_dir, f"{create_function_name}.mcfunction")
     with open(function_file, 'w') as f:
         f.write(function_content)
 
@@ -90,13 +92,14 @@ data modify block ~{x * 32} ~{y * 32} ~{z * 32} Position set value [{x * 32}, {y
             for z in range(z_blocks):
                 structure_name = f"{name}_{x}_{y}_{z}{suffix}"
                 structure_name_func = f"{namespace}:{name}_{x}_{y}_{z}{suffix}"
-                place_function_name = f"place-{structure_name}"
                 place_function_content += f"""
 # Place the structure for {structure_name}
 place template {structure_name_func} ~{x * 32} ~{y * 32} ~{z * 32}
 """
 
     # Save the second function content to a file
+    structure_name = f"{name}{suffix}"
+    place_function_name = f"place-{structure_name}"
     place_function_file = os.path.join(function_dir, f"{place_function_name}.mcfunction")
     with open(place_function_file, 'w') as f:
         f.write(place_function_content)
