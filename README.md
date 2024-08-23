@@ -69,3 +69,5 @@ This project is licensed under the [GNU General Public License v3.0](LICENSE).
 - The graphical user interface is created using the `tkinter` library.
 
 Feel free to contribute, report issues, or suggest improvements!
+
+Support me https://ko-fi.com/notfamous
