@@ -3,6 +3,13 @@
 
 This Python script is a workaround for the 32x32x32 block size limit of Minecraft structure blocks by automatically generating multiple structure files and corresponding functions. It allows users to create larger structures by specifying the desired dimensions, name, namespace, and directories through a user-friendly GUI.
 
+- This script generates a bunch of structures, and 2 mcfunctions. 
+- The structures form a grid of structure blocks pre-configured to copy as large of an area as you want. You need to go through each one and all you have to do is click copy and then break the block. 
+- The first mcfunction places and configures all the blocks.
+- After you copy you're area, if you don't change the names in the structure blocks, you can use the second function to place the entire structure. Stand one block above where you placed the grid of structure blocks and run the place command and it will place it.
+
+
+
 ## Features
 
 - Generates multiple structure files (NBT) to overcome the 32x32x32 block size limit
